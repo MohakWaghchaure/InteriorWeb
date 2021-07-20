@@ -1,0 +1,207 @@
+//-----intro section----------------
+.intro-container{
+    padding: 4rem 4rem;
+    background-color: hsla(0, 100%, 100%, 0.8);
+    z-index: 1;
+    .title-container{
+        padding: 1.5rem 0rem;
+        h1{
+            font-size: 5rem;
+            font-weight: 600;
+        }
+    }
+    .description-container{
+        padding: 1.5rem 0rem;
+        p{
+            text-align: left;
+            line-height: 2.5rem;
+        }
+    }
+    .button-container{
+        padding: 1.5rem 0rem;
+        button{
+            padding: 1.2rem 5rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            border: 0.5px solid #000000;
+            background-color: #ffffff;
+        }
+        button:hover{
+            color: #ffffff;
+            background-color: #3a3939;
+        }
+    }
+}
+.intro-background{
+    background-image: url(../images/background_001.jpg);
+    height: 100%;
+    width: 950px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+}
+
+//-----------About Section--------------------
+
+.about-title{
+    div{
+        font-size: 4rem;
+        font-weight: 600;
+        padding: 4rem 0rem;
+    }
+}
+.about-description-container{
+    .about-description{
+        padding: 4rem 4rem;
+        font-size: 1.6rem;
+    }
+}
+
+//----------Our Projects Section----------------
+.projects-title-container{
+    text-align: left;
+    padding: 2rem 0rem;
+}
+.project-description-container{
+    text-align: left;
+    padding: 1rem 0rem;
+    .projects-description{
+        padding: 1rem 2rem;
+    }
+    .projects-button{
+        padding: 1.5rem 2rem;
+    }
+}
+
+// ----------- studio/strategy section-------------
+.studio-title-container{
+    text-align: left;
+    padding: 2rem 0rem;
+    h2{
+        width: 65%;
+    }
+}
+.studio-info-container{
+    padding: 2rem 0rem;
+    text-align: left;
+    .strategy-container{
+        padding: 2rem 1.5rem;
+        padding-right: 4rem;
+        .strategy-title{
+            position: relative;
+            padding-bottom: 1.5rem;
+            h3{
+
+            }
+            .border-elem{
+                position: absolute;
+                width: 60%;
+                height: 1.5px;
+                background-color: gray;
+                right: 0;
+                top: 15px;
+                opacity: 0.25;
+            }
+        }
+        .strategy-description{
+
+        }
+    }
+}
+
+// ---------------Blog Section-------------
+.blog-title-container{
+    text-align: left;
+    padding: 2rem 0rem;
+    h2{
+
+    }
+}
+.blog-container{
+    text-align: left;
+    padding: 2rem 0rem;
+    .blog-card{
+        padding-right: 5rem;
+        .image-container{
+            padding: 4rem 0rem;
+            overflow: hidden;
+            img{
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        .blog-title{
+            // position: relative;
+            padding: 1rem 0rem;
+            h3{
+
+            }
+        }
+        .blog-description{
+            padding: 0rem 0rem;
+            padding-bottom: 1rem;
+            p{
+
+            }
+        }
+        .Blog-link{
+            padding: 0rem 0rem;
+            padding-bottom: 1rem;
+            a{
+                position: relative;
+            }
+            a::after{
+                position: absolute;
+                content: '';
+                height: 1.5px;
+                width: 18px;
+                background-color: gray;
+                opacity: 0.25;
+                top: 55%;
+                right: -45%;
+            }
+        }
+    }
+}
+
+// --------------contact us-------------
+
+.contact-us-title{
+    text-align: left;
+    padding: 2rem 0rem;
+    h2{
+
+    }
+}
+.contact-us-form{
+    text-align: left;
+    padding: 2rem 0rem;
+    form{
+        .form-container{
+            .field-container{
+                label{
+                    width: 100%;
+                    padding-bottom: 1rem;
+                }
+                input{
+                    width: 85%;
+                    border-bottom: 1px solid gray;
+                    outline: none;
+                }
+            }
+            .send-button-container{
+                padding: 2rem 2rem;
+                button{
+
+                }
+            }
+        }
+    }
+}
+
+

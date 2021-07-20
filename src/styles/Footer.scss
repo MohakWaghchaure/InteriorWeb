@@ -1,0 +1,76 @@
+@import 'default.scss';
+
+.footer-container{
+    padding: 5rem 12.5rem;
+    z-index: 4;
+    background-color: #ffffff;
+    margin: 0rem;
+    text-align: left;
+    .logo-container{
+        padding: 2rem 0rem;
+        div{
+            font-size: 3rem;
+            font-weight: 600;
+            position: relative;
+            width: max-content;
+            span{
+                position: absolute;
+                font-size: 1.5rem;
+                font-weight: 400;
+                bottom: -20%;
+                right: 0%;
+            }
+        }
+    }
+    .get-in-touch-container{
+        padding: 2rem 0rem;
+        div{
+            font-size: 1.8rem;
+            font-weight: 600;
+            padding-bottom: 1rem;
+        }
+        p{
+            padding-bottom: 0.6rem;
+            margin: 0rem;
+        }
+    }
+    .social-links{
+        padding: 2rem 0rem;
+        .social-logo-wrapper{
+            display: inline-block;
+            padding: 1rem;
+            img{
+                height: 25px;
+                width: 25px;
+                // background-color: #000;
+                // border-radius: 50%;
+            }
+        }
+
+    }
+    .nav-options{
+        padding: 2rem 0rem;
+        ul{
+            list-style-type: none;            
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 0rem;
+            padding: 0rem;
+            li{
+                display: inline-block;
+                // width: auto;
+                a{
+                   width: 100%; 
+                   padding-right: 3rem;
+                   font-size: 1.6rem;
+                   font-weight: 600;
+                   text-decoration: none;
+                   color: #000;
+                   cursor: pointer;
+                   text-align: center;
+                }
+            }
+        }
+    }
+
+}
